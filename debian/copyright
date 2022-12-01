@@ -1,0 +1,23 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: qpOASES
+Source: https://github.com/coin-or/qpOASES
+
+Files: *
+Copyright: 2019 Bartolomeo Stellato, Goran Banjac, Paul Goulart, Stephen Boyd
+License: Apache-2.0
+ See /usr/share/common-licenses/Apache-2.0
+
+Files: lin_sys/direct/qdldl/*
+Copyright: 2018, Paul Goulart, Bartolomeo Stellato, Goran Banjac.
+License: Apache-2.0
+ See /usr/share/common-licenses/Apache-2.0
+
+Files: lin_sys/direct/qdldl/amd/*
+Copyright: 1996-2015, Timothy A. Davis, Patrick R. Amestoy, and Iain S. Duff.
+License: BSD
+ See /usr/share/common-licenses/BSD
+
+Files: debian/*
+Copyright: 2022 Pierre Gergondet <pierre.gergondet+ppa@gmail.com>
+License: GPL-2
+ See /usr/share/common-licenses/GPL-2

@@ -1,0 +1,19 @@
+Source: osqp
+Priority: optional
+Maintainer: Pierre Gergondet <pierre.gergondet+ppa@gmail.com>
+Standards-Version: 3.9.5
+Section: libs
+Homepage: https://github.com/coin-or/osqp
+Build-Depends: debhelper (>= 9),
+               pkg-config,
+               cmake,
+               doxygen,
+               graphviz
+
+Package: libosqp-dev
+Section: libdevel
+Architecture: any
+Depends: cmake,
+         ${shlibs:Depends},
+         ${misc:Depends}
+Description: The Operator Splitting QP Solver
